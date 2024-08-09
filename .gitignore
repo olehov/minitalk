@@ -1,0 +1,43 @@
+# Ignore Visual Studio Code directory
+.vscode/
+
+client
+server
+
+# Ignore build and output files
+*.o
+*.out
+*.so
+*.a
+*.d
+*.i
+
+# Ignore build directories
+build/
+bin/
+obj/
+lib/
+
+# Ignore backup files
+*~
+.*.swp
+.*.swo
+
+# Ignore files created by autotools
+configure
+Makefile.in
+aclocal.m4
+autom4te.cache/
+config.log
+config.status
+
+# Ignore archive files
+*.tar
+*.gz
+*.bz2
+*.zip
+
+# Optionally ignore all executables
+*.exe
+*.dll
+*.bin
